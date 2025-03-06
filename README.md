@@ -38,9 +38,7 @@ y_predicted = m*x+b
 print(y_predicted)
 plt.scatter(x,y)
 plt.plot(x,y_predicted)
-plt.show()
-Developed by:JOSIAH IMMANUEL A
-RegisterNumber:212223043003  
+plt.show() 
 */
 ```
 
