@@ -1,4 +1,6 @@
 # Implementation of Univariate Linear Regression
+## NAME:JOSIAH IMMANUEL A
+## REGNO:212223043003
 ## AIM:
 To implement univariate Linear Regression to fit a straight line using least squares.
 
@@ -18,15 +20,33 @@ To implement univariate Linear Regression to fit a straight line using least squ
 
 ## Program:
 ```
-/*
-Program to implement univariate Linear Regression to fit a straight line using least squares.
-Developed by: 
-RegisterNumber:  
+/*import numpy as np
+import matplotlib.pyplot as plt
+x = np.array(eval(input()))
+y = np.array(eval(input()))
+xmean = np.mean(x)
+ymean = np.mean(y)
+num=0
+denom=0
+for i in range(len(x)):
+  num+=(x[i]-xmean)*(y[i]-ymean)
+  denom+=(x[i]-xmean)**2
+m=num/denom
+b=ymean-m*xmean
+print(m,b)
+y_predicted = m*x+b
+print(y_predicted)
+plt.scatter(x,y)
+plt.plot(x,y_predicted)
+plt.show()
+Developed by:JOSIAH IMMANUEL A
+RegisterNumber:212223043003  
 */
 ```
 
 ## Output:
-![best fit line](sam.png)
+![output ex 01](https://github.com/user-attachments/assets/5c820a37-7ead-4df1-9403-bd31b43880ed)
+
 
 
 ## Result:
